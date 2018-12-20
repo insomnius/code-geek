@@ -5,7 +5,11 @@ This repo is dedicated to store all of programing interview test from a very sim
 ## List of languages and tests
 
 - Go
-  - sort in one loop
+  - Sort
+    - Sort in one loop
+    - Bubble sort
+    - Selection sort
+    - Insertion sort
 
 ## How to run
 

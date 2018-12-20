@@ -10,7 +10,14 @@ func main() {
 	fmt.Println("\t\t\tLanguage: Go")
 	hr()
 
+	// sorting algorithm
 	measure(sort_in_one_loop)
+	hr()
+	measure(bubble_sort)
+	hr()
+	measure(selection_sort)
+	hr()
+	measure(insertion_sort)
 	hr()
 }
 
