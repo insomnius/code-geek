@@ -6,10 +6,10 @@ This repo is dedicated to store all of programing interview test from a very sim
 
 - Go
   - Sort
-    - Sort in one loop
-    - Bubble sort
-    - Selection sort
-    - Insertion sort
+    - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/go/sort-in-one-loop.go)
+    - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/go/bubble-sort.go)
+    - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/go/selection-sort.go)
+    - [Insertion sort](https://github.com/insomnius/programming-test-interview/blob/master/go/insertion-sort.go)
 
 ## How to run
 
