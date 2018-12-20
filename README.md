@@ -15,4 +15,5 @@ This repo is dedicated to store all of programing interview test from a very sim
 
 ### Go
 
-To run all of go example please run `go run/go*` and you will get all of the output sample.
+- Sort
+  - To run all of go sort example please run `go run go/sort/*` and you will get all of the output sample.
