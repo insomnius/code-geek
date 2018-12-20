@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-// Simple trick to do array sort in just one loop
+// simple trick to do array sort in just one loop
 func sort_in_one_loop() {
 	fmt.Println("sort in one loop")
 
