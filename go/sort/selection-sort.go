@@ -18,6 +18,7 @@ import (
 // exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order),
 // and moving the sublist boundaries one element to the right.
 // https://en.wikipedia.org/wiki/Selection_sort
+// Level: Easy
 func selection_sort() {
 	fmt.Println("selection sort")
 

@@ -8,17 +8,10 @@ import (
 func main() {
 	fmt.Printf("\t\tProgramming Test Interview\n\n")
 	fmt.Println("Language: Go")
-	fmt.Println("Category: Sorting")
+	fmt.Println("Category: Manipulation")
 	hr()
 
-	// sorting algorithm
-	measure(sort_in_one_loop)
-	hr()
-	measure(bubble_sort)
-	hr()
-	measure(selection_sort)
-	hr()
-	measure(insertion_sort)
+	measure(remove_duplicate_from_sorted_array)
 	hr()
 }
 

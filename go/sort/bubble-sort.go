@@ -11,6 +11,7 @@ import (
 // Although the algorithm is simple, it is too slow and impractical for most problems even when compared to insertion sort.
 // Bubble sort can be practical if the input is in mostly sorted order with some out-of-order elements nearly in position.
 // https://en.wikipedia.org/wiki/Bubble_sort
+// Level: Easy
 func bubble_sort() {
 	fmt.Println("bubble sort")
 

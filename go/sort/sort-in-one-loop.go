@@ -6,6 +6,7 @@ import (
 )
 
 // Here is a simple trick to do an array sort in just one loop.
+// Level: Easy
 func sort_in_one_loop() {
 	fmt.Println("sort in one loop")
 
