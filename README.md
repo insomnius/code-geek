@@ -1,6 +1,6 @@
-# Programming Test Interview
+# Code Geek
 
-This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one.
+This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one and all of my geeky code.
 
 ## List of languages and tests
 
