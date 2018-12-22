@@ -12,6 +12,7 @@ This repo is dedicated to store all of programing interview test from a very sim
     - [Insertion sort](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/insertion-sort.go)
   - Manipulation
     - [Remove duplicate from sorted array](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/remove_duplicate_from_sorted_array.go)
+    - [Remove duplicate from unsorted array](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/remove_duplicate_from_unsorted_array.go)
     - [Reverse random array](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/reverse_random_array.go)
 
 ## How to run
