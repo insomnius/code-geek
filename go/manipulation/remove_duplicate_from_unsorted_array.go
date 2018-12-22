@@ -5,6 +5,8 @@ import (
 	"math/rand"
 )
 
+// Scenario: You are given unsorted array and you have to remove the duplicate values.
+// Level: Easy
 func remove_duplicate_from_unsorted_array() {
 	fmt.Println("remove duplicate from unsorted array")
 
