@@ -13,6 +13,8 @@ func main() {
 
 	measure(remove_duplicate_from_sorted_array)
 	hr()
+	measure(reverse_random_array)
+	hr()
 }
 
 // hr function use to print dividing line
