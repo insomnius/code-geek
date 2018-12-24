@@ -17,6 +17,8 @@ func main() {
 	hr()
 	measure(reverse_random_array)
 	hr()
+	measure(pig_latin)
+	hr()
 }
 
 // hr function use to print dividing line
