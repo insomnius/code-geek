@@ -21,7 +21,7 @@ Output: englishyay
 Input: smile
 Output: ilesmay
 
-Level: Medium
+Level: Easy
 */
 func pig_latin() {
 	fmt.Println("pig latin")
