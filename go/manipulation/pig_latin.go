@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-/**
+/*
 Pig Latin is an argot ("secret" language) in which word in english are altered to
 conceal the words from others not familiar with the rules.
 

@@ -19,6 +19,8 @@ func main() {
 	hr()
 	measure(pig_latin)
 	hr()
+	measure(block_and_iron)
+	hr()
 }
 
 // hr function use to print dividing line
