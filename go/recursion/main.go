@@ -8,16 +8,11 @@ import (
 func main() {
 	fmt.Printf("\t\tProgramming Test Interview\n\n")
 	fmt.Println("Language: Go")
-	fmt.Println("Category: Manipulation")
+	fmt.Println("Category: Recursive")
 	hr()
 
-	measure(remove_duplicate_from_sorted_array)
 	hr()
-	measure(remove_duplicate_from_unsorted_array)
-	hr()
-	measure(reverse_random_array)
-	hr()
-	measure(pig_latin)
+	measure(block_and_iron)
 	hr()
 }
 

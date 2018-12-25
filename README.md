@@ -15,7 +15,8 @@ This repo is dedicated to store all of programing interview test from a very sim
     - [Remove duplicate from unsorted array](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/remove_duplicate_from_unsorted_array.go)
     - [Reverse random array](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/reverse_random_array.go)
     - [Pig Latin](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/pig_latin.go.go)
-    - [Block and Iron](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/block_and_iron.go)
+  - Recursion
+    - [Block and Iron](https://github.com/insomnius/programming-test-interview/blob/master/go/recursion/block_and_iron.go)
 
 ## How to run
 
