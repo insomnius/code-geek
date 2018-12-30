@@ -1,6 +1,20 @@
 # Code Geek
 
-This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one and all of my geeky code.
+This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one, algorithm impmlementation and all of geeky code.
+
+## Prerequisites
+
+In order to run all example in this repository you need to have
+
+- Linux
+  - General
+    - `make` command - GNU make utility to maintain groups of programs
+  - C
+    - C programmming language
+    - `gcc` - GNU project C and C++ compiler
+  - Go
+    - [Go programming language](https://golang.org/doc/install)
+    - `go` command
 
 ## Table of Contents
 
@@ -37,3 +51,15 @@ This repo is dedicated to store all of programing interview test from a very sim
 
 - Sort
   - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+- **Insomnius** - Initial work, main GO contributor.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/insomnius/code-geek/blob/master/LICENSE) file for details.
