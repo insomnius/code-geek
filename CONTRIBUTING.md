@@ -9,7 +9,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Ensure any install or build dependencies are removed before the end of the layer when contributing.
 2. Update the README.md with details of changes, addition, improvement of a code.
-3. You may merge the Pull Request in once you have the sign-off of one other developers, or if you
+3. Please follow the [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) guide.
+4. You may merge the Pull Request in once you have the sign-off of one other developers, or if you
    do not have permission to do that, you may request the reviewer or maintainer to merge it for you.
 
 ## Code of Conduct
