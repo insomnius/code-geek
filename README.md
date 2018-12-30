@@ -17,6 +17,8 @@ In order to run all example in this repository you need to have
     - `go` command
     
 - macOS
+  - General
+    - `brew` command - Brew or Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
   - C Family Languages
     - `clang` - Xcode shipped with clang compiler for C, C++, Objective-C, and Swift for free.
     - Xcode required for most macOS development tools to run.
