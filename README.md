@@ -1,6 +1,6 @@
 # Code Geek
 
-This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one, algorithm impmlementation and all of geeky code.
+This repo is dedicated to store all of programing interview test from a very simple one to a very hardest one, algorithm impmlementation and all of geeky code. The aim of this repo is to help people to learn algorithm better and find solution that maybe useful in the future.
 
 ## Prerequisites
 
