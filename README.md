@@ -54,7 +54,7 @@ In order to run all example in this repository you need to have
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. Check all of people that already contribute in this project in [here](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTOR).
 
 ## Authors
 
