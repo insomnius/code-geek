@@ -4,6 +4,10 @@ This repo is dedicated to store all of programing interview test from a very sim
 
 ## Table of Contents
 
+- C
+  - Sort
+    - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/c/sort/sort-in-one-loop.c)
+
 - Go
   - Sort
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/sort-in-one-loop.go)
@@ -23,8 +27,13 @@ This repo is dedicated to store all of programing interview test from a very sim
 ### Go
 
 - Sort
-  - To run all of go sort example please run `go run go/sort/*` and you will get all of the output sample.
+  - To run all of go sort example please run `go run go/sort/*` and you will get all of the output sample or just simply use `make go_sort`.
 - Manipulation
-  - To run all of go sort example please run `go run go/manipulation/*` and you will get all of the output sample.
+  - To run all of go sort example please run `go run go/manipulation/*` and you will get all of the output sample or just simply use `make go_manipulation`.
 - Recursion
-  - To run all of go sort example please run `go run go/recursion/*` and you will get all of the output sample.
+  - To run all of go sort example please run `go run go/recursion/*` and you will get all of the output sample or just simply use `make go_recursion`.
+
+### C
+
+- Sort
+  - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`

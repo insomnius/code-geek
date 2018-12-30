@@ -6,12 +6,12 @@ import (
 )
 
 func main() {
-	fmt.Printf("\t\tProgramming Test Interview\n\n")
+	fmt.Printf("\t\tCode Geek\n\n")
 	fmt.Println("Language: Go")
 	fmt.Println("Category: Sorting")
 	hr()
 
-	// sorting algorithm
+	// sorting algoritwhm
 	measure(sort_in_one_loop)
 	hr()
 	measure(bubble_sort)

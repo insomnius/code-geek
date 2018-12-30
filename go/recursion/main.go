@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("\t\tProgramming Test Interview\n\n")
+	fmt.Printf("\t\tCode Geek\n\n")
 	fmt.Println("Language: Go")
 	fmt.Println("Category: Recursive")
 	hr()
