@@ -35,6 +35,8 @@ In order to run all example in this repository you need to have
     - [Pig Latin](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/pig_latin.go.go)
   - Recursion
     - [Block and Iron](https://github.com/insomnius/programming-test-interview/blob/master/go/recursion/block_and_iron.go)
+  - String
+    - [Reverse String](https://github.com/insomnius/programming-test-interview/blob/master/go/string/reverse_string.go)
 
 ## How to run
 
@@ -46,6 +48,8 @@ In order to run all example in this repository you need to have
   - To run all of go sort example please run `go run go/manipulation/*` and you will get all of the output sample or just simply use `make go_manipulation`.
 - Recursion
   - To run all of go sort example please run `go run go/recursion/*` and you will get all of the output sample or just simply use `make go_recursion`.
+- String
+  - To run all of go sort example please run `go run go/string/*` and you will get all of the output sample or just simply use `make go_string`.
 
 ### C
 
