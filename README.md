@@ -15,6 +15,17 @@ In order to run all example in this repository you need to have
   - Go
     - [Go programming language](https://golang.org/doc/install)
     - `go` command
+    
+- macOS
+  - General
+    - `brew` command - Brew or Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
+  - C Family Languages
+    - `clang` - Xcode shipped with clang compiler for C, C++, Objective-C, and Swift for free.
+    - Xcode required for most macOS development tools to run.
+  - Go
+    - `go` command
+  
+  macOS setup tutorial for development in various tools can be found in [macOS Setup - Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/).
 
 ## Table of Contents
 
