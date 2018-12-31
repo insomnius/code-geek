@@ -5,6 +5,11 @@ import (
 	"strings"
 )
 
+/*
+You are given a sets of string and your job is to reverse them.
+
+Level: Easy
+*/
 func reverse_string() {
 	fmt.Println("reverse string")
 
