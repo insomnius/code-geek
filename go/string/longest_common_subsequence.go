@@ -1,5 +1,7 @@
 package main
 
-func longest_common_subsequence() {
+import "fmt"
 
+func longest_common_subsequence() {
+	fmt.Println("longets common subsequence")
 }

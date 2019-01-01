@@ -13,6 +13,10 @@ func main() {
 
 	measure(reverse_string)
 	hr()
+	measure(subsequence)
+	hr()
+	measure(longest_common_subsequence)
+	hr()
 }
 
 // hr function use to print dividing line
