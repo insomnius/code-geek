@@ -50,6 +50,11 @@ func subsequence() {
 	in_array = map[string]bool{}
 }
 
+// Function subsequence receive 4 parameter
+// var text string => actual text
+// var index integer => text length or start index to do a subsequence function
+// var subsequence []string => list of possible subsequence
+// var in_array map[string]bool => list of memoized text to optimize the function
 func subsequence_(text string, index int, subsequence []string, in_array map[string]bool) []string {
 	// If its a blank text or index bigger than text length, then it should be return instead.
 	if text == "" || index > len(text) || in_array[text] {
@@ -62,21 +67,21 @@ func subsequence_(text string, index int, subsequence []string, in_array map[str
 
 	for i := 1; i <= len(text)-1; i++ {
 		for j := i + 2; j <= len(text); j++ {
-			combined_text := text[:i] + text[j:]
-			if in_array[combined_text] {
+			combined_text := text[:i] + text[j:] // Combine first char and third char and so on
+			if in_array[combined_text] {         // If combined text already in subsequence array then ignore it
 				continue
 			}
-			subsequence = subsequence_(combined_text, len(combined_text), subsequence, in_array)
+			subsequence = subsequence_(combined_text, len(combined_text), subsequence, in_array) // Call subsequence function for combined text
 		}
 	}
 
 	for index >= 0 {
-		i := index
+		i := index // Store index value in i before go to next request
 		index--
 		if in_array[text[i:]] == false {
-			subsequence = subsequence_(text[i:], index, subsequence, in_array)
+			subsequence = subsequence_(text[i:], index, subsequence, in_array) // Call subsequence function for text after i
 		} else if in_array[text[:i]] == false {
-			subsequence = subsequence_(text[:i], index, subsequence, in_array)
+			subsequence = subsequence_(text[:i], index, subsequence, in_array) // Call subsequence function for text before i
 		}
 	}
 
