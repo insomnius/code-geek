@@ -38,16 +38,6 @@ func subsequence() {
 	fmt.Printf("subsequence of \"%s\" is:\n", text)
 	fmt.Printf("%s\n\n", subsequence_(text, len(text), empty_string_array, in_array))
 	in_array = map[string]bool{}
-
-	text = "eat banana"
-	fmt.Printf("subsequence of \"%s\" is:\n", text)
-	fmt.Printf("%s\n\n", subsequence_(text, len(text), empty_string_array, in_array))
-	in_array = map[string]bool{}
-
-	text = "velociraptor eat goat"
-	fmt.Printf("subsequence of \"%s\" is:\n", text)
-	fmt.Printf("%s\n\n", subsequence_(text, len(text), empty_string_array, in_array))
-	in_array = map[string]bool{}
 }
 
 // Function subsequence receive 4 parameter

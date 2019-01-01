@@ -17,6 +17,8 @@ func main() {
 	hr()
 	measure(longest_common_subsequence)
 	hr()
+	measure(count_longest_common_subsequence)
+	hr()
 }
 
 // hr function use to print dividing line
