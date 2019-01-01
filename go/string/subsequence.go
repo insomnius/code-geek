@@ -44,24 +44,28 @@ func subsequence() {
 	fmt.Printf("%s\n\n", subsequence_(text, len(text), empty_string_array, in_array))
 	in_array = map[string]bool{}
 
-	text = "velociraptor"
+	text = "velociraptor eat goat"
 	fmt.Printf("subsequence of \"%s\" is:\n", text)
 	fmt.Printf("%s\n\n", subsequence_(text, len(text), empty_string_array, in_array))
 	in_array = map[string]bool{}
 }
 
 func subsequence_(text string, index int, subsequence []string, in_array map[string]bool) []string {
-	if text == "" || index > len(text) {
+	// If its a blank text or index bigger than text length, then it should be return instead.
+	if text == "" || index > len(text) || in_array[text] {
 		return subsequence
 	}
 
+	// Add text to subsequence array and memoize the text
+	subsequence = append(subsequence, text)
+	in_array[text] = true
+
 	for i := 1; i <= len(text)-1; i++ {
-		for j := i + 1; j <= len(text); j++ {
+		for j := i + 2; j <= len(text); j++ {
 			combined_text := text[:i] + text[j:]
 			if in_array[combined_text] {
 				continue
 			}
-
 			subsequence = subsequence_(combined_text, len(combined_text), subsequence, in_array)
 		}
 	}
@@ -69,17 +73,11 @@ func subsequence_(text string, index int, subsequence []string, in_array map[str
 	for index >= 0 {
 		i := index
 		index--
-
-		if in_array[text] {
-			subsequence = subsequence_(text[:i], index, subsequence, in_array)
+		if in_array[text[i:]] == false {
 			subsequence = subsequence_(text[i:], index, subsequence, in_array)
-			continue
+		} else if in_array[text[:i]] == false {
+			subsequence = subsequence_(text[:i], index, subsequence, in_array)
 		}
-
-		subsequence = append(subsequence, text)
-		in_array[text] = true
-		subsequence = subsequence_(text[:i], index, subsequence, in_array)
-		subsequence = subsequence_(text[i:], index, subsequence, in_array)
 	}
 
 	return subsequence
