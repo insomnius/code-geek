@@ -17,29 +17,29 @@ func longest_common_subsequence() {
 	string_2 = "ohana"
 	memoize = map[int]map[int]int{}
 	fmt.Printf("first string: %s, second string: %s.\nThe longest common subsequence length is: %d\n\n",
-		string_1, string_2, clcs(string_1, string_2, len(string_1), len(string_2), memoize))
+		string_1, string_2, lcs(string_1, string_2, len(string_1), len(string_2), memoize))
 
 	string_1 = "apple"
 	string_2 = "apple"
 	memoize = map[int]map[int]int{}
 	fmt.Printf("first string: %s, second string: %s.\nThe longest common subsequence length is: %d\n\n",
-		string_1, string_2, clcs(string_1, string_2, len(string_1), len(string_2), memoize))
+		string_1, string_2, lcs(string_1, string_2, len(string_1), len(string_2), memoize))
 
 	string_1 = "velociraptor"
 	string_2 = "marsupilami"
 	memoize = map[int]map[int]int{}
 	fmt.Printf("first string: %s, second string: %s.\nThe longest common subsequence length is: %d\n\n",
-		string_1, string_2, clcs(string_1, string_2, len(string_1), len(string_2), memoize))
+		string_1, string_2, lcs(string_1, string_2, len(string_1), len(string_2), memoize))
 
 	string_1 = "i love you"
 	string_2 = "i hate you"
 	memoize = map[int]map[int]int{}
 	fmt.Printf("first string: %s, second string: %s.\nThe longest common subsequence length is: %d\n\n",
-		string_1, string_2, clcs(string_1, string_2, len(string_1), len(string_2), memoize))
+		string_1, string_2, lcs(string_1, string_2, len(string_1), len(string_2), memoize))
 
 }
 
-func clcs(x, y string, i, j int, memoize map[int]map[int]int) int {
+func lcs(x, y string, i, j int, memoize map[int]map[int]int) int {
 	if memoize[i][j] != 0 {
 		return memoize[i][j]
 	}
@@ -49,10 +49,10 @@ func clcs(x, y string, i, j int, memoize map[int]map[int]int) int {
 	if i == 0 || j == 0 {
 		return 0
 	} else if x[i-1] == y[j-1] {
-		result = 1 + clcs(x, y, i-1, j-1, memoize)
+		result = 1 + lcs(x, y, i-1, j-1, memoize)
 	} else if x[i-1] != y[j-1] {
-		res1 := clcs(x, y, i-1, j, memoize)
-		res2 := clcs(x, y, i, j-1, memoize)
+		res1 := lcs(x, y, i-1, j, memoize)
+		res2 := lcs(x, y, i, j-1, memoize)
 
 		if res1 > res2 {
 			result = res1

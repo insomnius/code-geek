@@ -15,9 +15,9 @@ func main() {
 	hr()
 	measure(subsequence)
 	hr()
-	measure(common_subsequence)
-	hr()
 	measure(longest_common_subsequence)
+	hr()
+	measure(common_subsequence)
 	hr()
 }
 
