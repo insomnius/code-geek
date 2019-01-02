@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Here is a simple trick to do an array sort in just one loop.
+// Level: Easy
 void sort_in_one_loop()
 {
   printf("sort in one loop\n");

@@ -15,7 +15,7 @@ In order to run all example in this repository you need to have
   - Go
     - [Go programming language](https://golang.org/doc/install)
     - `go` command
-    
+
 - macOS
   - General
     - `brew` command - Brew or Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
@@ -24,7 +24,7 @@ In order to run all example in this repository you need to have
     - Xcode required for most macOS development tools to run.
   - Go
     - `go` command
-  
+
   macOS setup tutorial for development in various tools can be found in [macOS Setup - Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/).
 
 ## Table of Contents
@@ -46,6 +46,11 @@ In order to run all example in this repository you need to have
     - [Pig Latin](https://github.com/insomnius/programming-test-interview/blob/master/go/manipulation/pig_latin.go.go)
   - Recursion
     - [Block and Iron](https://github.com/insomnius/programming-test-interview/blob/master/go/recursion/block_and_iron.go)
+  - String
+    - [Reverse String](https://github.com/insomnius/programming-test-interview/blob/master/go/string/reverse_string.go)
+    - [Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/subsequence.go)
+    - [Longest Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/longest_common_subsequence.go)
+    - [Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/common_subsequence.go)
 
 ## How to run
 
@@ -57,6 +62,8 @@ In order to run all example in this repository you need to have
   - To run all of go sort example please run `go run go/manipulation/*` and you will get all of the output sample or just simply use `make go_manipulation`.
 - Recursion
   - To run all of go sort example please run `go run go/recursion/*` and you will get all of the output sample or just simply use `make go_recursion`.
+- String
+  - To run all of go sort example please run `go run go/string/*` and you will get all of the output sample or just simply use `make go_string`.
 
 ### C
 

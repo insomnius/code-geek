@@ -10,3 +10,6 @@ go_recursion:
 
 go_manipulation:
 	@go run go/manipulation/*
+
+go_string:
+	@go run go/string/*
