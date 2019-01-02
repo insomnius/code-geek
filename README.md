@@ -48,6 +48,9 @@ In order to run all example in this repository you need to have
     - [Block and Iron](https://github.com/insomnius/programming-test-interview/blob/master/go/recursion/block_and_iron.go)
   - String
     - [Reverse String](https://github.com/insomnius/programming-test-interview/blob/master/go/string/reverse_string.go)
+    - [Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/subsequence.go)
+    - [Longest Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/longest_common_subsequence.go)
+    - [Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/common_subsequence.go)
 
 ## How to run
 
