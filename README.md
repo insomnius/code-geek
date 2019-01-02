@@ -63,6 +63,7 @@ In order to run all example in this repository you need to have
     - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
   - Searching
     - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
+    - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
 
 ## How to run
 
