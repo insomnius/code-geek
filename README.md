@@ -60,6 +60,7 @@ In order to run all example in this repository you need to have
 - Java
   - Sort
     - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/BubbleSort.java)
+    - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
 
 ## How to run
 
