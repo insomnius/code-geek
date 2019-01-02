@@ -61,6 +61,8 @@ In order to run all example in this repository you need to have
   - Sort
     - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/BubbleSort.java)
     - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
+  - Searching
+    - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
 
 ## How to run
 
