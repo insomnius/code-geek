@@ -84,8 +84,7 @@ In order to run all example in this repository you need to have
   - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`
 
 ### Java
-- Sort
-  - use command `javac file_name.java` to generate compiled file and then run it with `java file_name.class`.
+- use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
 
 ## Contributing
 
