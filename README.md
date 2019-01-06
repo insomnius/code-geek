@@ -15,6 +15,9 @@ In order to run all example in this repository you need to have
   - Go
     - [Go programming language](https://golang.org/doc/install)
     - `go` command
+  - Java
+    - [Java programming language](https://www.java.com/en/download/help/download_options.xml)
+    - `javac` and `java` - Java project for compile and running
 
 - macOS
   - General
@@ -24,6 +27,8 @@ In order to run all example in this repository you need to have
     - Xcode required for most macOS development tools to run.
   - Go
     - `go` command
+  - Java
+    - JDK required for compile and running Java project
 
   macOS setup tutorial for development in various tools can be found in [macOS Setup - Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/).
 
@@ -52,6 +57,14 @@ In order to run all example in this repository you need to have
     - [Longest Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/longest_common_subsequence.go)
     - [Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/common_subsequence.go)
 
+- Java
+  - Sort
+    - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/BubbleSort.java)
+    - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
+  - Searching
+    - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
+    - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
+
 ## How to run
 
 ### Go
@@ -69,6 +82,9 @@ In order to run all example in this repository you need to have
 
 - Sort
   - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`
+
+### Java
+- use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
 
 ## Contributing
 
