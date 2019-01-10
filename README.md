@@ -64,6 +64,8 @@ In order to run all example in this repository you need to have
   - Searching
     - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
     - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
+  - Recursion
+    - [Triangle recursion](https://github.com/insomnius/programming-test-interview/blob/master/java/recursion/TriangleRecursion.java)
 
 ## How to run
 
