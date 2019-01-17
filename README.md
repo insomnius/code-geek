@@ -65,6 +65,10 @@ In order to run all example in this repository you need to have
     - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
     - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
 
+- Python
+  - dictionary
+    - [Dynamically Importing And Convert into Dictionary]()
+    - [Searching Dictionary Inside the List based on Keyword Dictionary]()
 ## How to run
 
 ### Go
@@ -86,6 +90,9 @@ In order to run all example in this repository you need to have
 ### Java
 - use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
 
+### Python
+- use command `python filename.py arg arg ...` to execute the python file and run it with terminal or command prompt
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. Check all of people that already contribute in this project in [here](https://github.com/insomnius/code-geek/blob/master/CONTRIBUTOR).
@@ -93,6 +100,7 @@ Please read [CONTRIBUTING.md](https://github.com/insomnius/code-geek/blob/master
 ## Authors
 
 - **Insomnius** - Initial work, main GO contributor.
+- **Kzulfazriawan** - python contributor.
 
 ## License
 
