@@ -18,6 +18,9 @@ In order to run all example in this repository you need to have
   - Java
     - [Java programming language](https://www.java.com/en/download/help/download_options.xml)
     - `javac` and `java` - Java project for compile and running
+  - Python or Python3
+    - Python Programming language
+    - `python` or `python3` - Python command for executed python file.
 
 - macOS
   - General
