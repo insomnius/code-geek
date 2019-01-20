@@ -61,9 +61,12 @@ In order to run all example in this repository you need to have
   - Sort
     - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/BubbleSort.java)
     - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
+    - [Insertion sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/InsertionSort.java)
   - Searching
     - [Sequential searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/SequentialSearching.java)
     - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
+  - Recursion
+    - [Triangle recursion](https://github.com/insomnius/programming-test-interview/blob/master/java/recursion/TriangleRecursion.java)
 
 ## How to run
 
