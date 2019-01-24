@@ -7,6 +7,7 @@ This repo is dedicated to store all of programing interview test from a very sim
 In order to run all example in this repository you need to have
 
 - Linux
+
   - General
     - `make` command - GNU make utility to maintain groups of programs
   - C
@@ -21,8 +22,12 @@ In order to run all example in this repository you need to have
   - Java
     - [Java programming language](https://www.java.com/en/download/help/download_options.xml)
     - `javac` and `java` - Java project for compile and running
+  - Python
+    - Python programming language
+    - python 3, actually almost linux distributions already installed python program. In some cases, `python` command will call python 2 as the default command, so you must call it with python3 command
 
 - macOS
+
   - General
     - `brew` command - Brew or Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
   - C/C++ Family Languages
@@ -30,6 +35,8 @@ In order to run all example in this repository you need to have
     - Xcode required for most macOS development tools to run.
   - Go
     - `go` command
+  - Python
+    - `python3` command should be installed.
   - Java
     - JDK required for compile and running Java project
 
@@ -44,6 +51,7 @@ In order to run all example in this repository you need to have
   - String
     - [FizzBuzz Program](/c++/string/FizzBuzz.cpp)
 - Go
+
   - Sort
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/sort-in-one-loop.go)
     - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/bubble-sort.go)
@@ -63,6 +71,7 @@ In order to run all example in this repository you need to have
     - [Common Subsequence](https://github.com/insomnius/programming-test-interview/blob/master/go/string/common_subsequence.go)
 
 - Java
+
   - Sort
     - [Bubble sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/BubbleSort.java)
     - [Selection sort](https://github.com/insomnius/programming-test-interview/blob/master/java/sort/SelectionSort.java)
@@ -72,6 +81,9 @@ In order to run all example in this repository you need to have
     - [Binary searching](https://github.com/insomnius/programming-test-interview/blob/master/java/searching/BinarySearching.java)
   - Recursion
     - [Triangle recursion](https://github.com/insomnius/programming-test-interview/blob/master/java/recursion/TriangleRecursion.java)
+
+- Python
+  - [Number Pattern](/python/logic/numberPattern.py)
 
 ## How to run
 
@@ -92,11 +104,18 @@ In order to run all example in this repository you need to have
   - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`
 
 ### C++
+
 - String
   - use command `g++ -o c++/string/main c++/string/FizzBuzz.cpp` to generate compiled file and ther run it with `./c++/string/main` or just simply use `make cpp_fizzbuzz`
 
 ### Java
+
 - use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
+
+### Python
+
+- use command `python python/logic/numberPattern.py`
+  > Depend on what version for your python command, sometimes you should use `python3` for call python 3.
 
 ## Contributing
 
