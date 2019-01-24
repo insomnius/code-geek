@@ -11,7 +11,10 @@ In order to run all example in this repository you need to have
     - `make` command - GNU make utility to maintain groups of programs
   - C
     - C programmming language
-    - `gcc` - GNU project C and C++ compiler
+    - `gcc` - _GNU Compiler Collections_ project C and C++ compiler
+  - C++
+    - C++ programming language with standard C++11 or above
+    - `gcc` - _GNU Compiler Collections_ project C and C++ compiler
   - Go
     - [Go programming language](https://golang.org/doc/install)
     - `go` command
@@ -22,7 +25,7 @@ In order to run all example in this repository you need to have
 - macOS
   - General
     - `brew` command - Brew or Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
-  - C Family Languages
+  - C/C++ Family Languages
     - `clang` - Xcode shipped with clang compiler for C, C++, Objective-C, and Swift for free.
     - Xcode required for most macOS development tools to run.
   - Go
@@ -37,7 +40,9 @@ In order to run all example in this repository you need to have
 - C
   - Sort
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/c/sort/sort-in-one-loop.c)
-
+- C++
+  - String
+    - [FizzBuzz Program](/C++/string/FizzBuzz.cpp)
 - Go
   - Sort
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/sort-in-one-loop.go)
@@ -85,6 +90,10 @@ In order to run all example in this repository you need to have
 
 - Sort
   - use command `gcc -o c/sort/main c/sort/main.c` to generate compiled file and then run it with `./c/sort/main` or just simply use `make c_sort`
+
+### C++
+- String
+  - use command `g++ -o c++/string/main c++/string/FizzBuzz.cpp` to generate compiled file and ther run it with `./c++/string/main` or just simply use `make cpp_fizzbuzz`
 
 ### Java
 - use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
