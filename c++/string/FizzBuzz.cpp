@@ -32,9 +32,18 @@ void logicTest(int i){
 }
 
 int main(void){
+        // initializing vector array, sizes 100
         std::vector<int> myvec(100);
+        
+        // generate array 1 to 100 using iota
+        // function template from numeric header
         std::iota(myvec.begin(), myvec.end(), 1);
+        
         std::cout<<"Test Logic"<<std::endl;
+
+        // Applies function fn to each of the elements in the range [first,last).
+        // in this case. logicTest Function to choose conditions that are in accordance
+        // with task
         std::for_each(myvec.begin(),myvec.end(),logicTest);
         std::cout<<"\n";
         return 0;
