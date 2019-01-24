@@ -42,7 +42,7 @@ In order to run all example in this repository you need to have
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/c/sort/sort-in-one-loop.c)
 - C++
   - String
-    - [FizzBuzz Program](/C++/string/FizzBuzz.cpp)
+    - [FizzBuzz Program](/c++/string/FizzBuzz.cpp)
 - Go
   - Sort
     - [Sort in one loop](https://github.com/insomnius/programming-test-interview/blob/master/go/sort/sort-in-one-loop.go)
