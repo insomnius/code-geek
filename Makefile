@@ -2,6 +2,10 @@ c_sort:
 	@gcc -o c/sort/main c/sort/main.c
 	@./c/sort/main
 
+cpp_fizzbuzz:
+	@g++ -o c++/string/main c++/string/FizzBuzz.cpp
+	@./c++/string/main
+
 go_sort:
 	@go run go/sort/*
 
