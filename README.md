@@ -22,15 +22,10 @@ In order to run all example in this repository you need to have
   - Java
     - [Java programming language](https://www.java.com/en/download/help/download_options.xml)
     - `javac` and `java` - Java project for compile and running
-<<<<<<< HEAD
-  - Python
-    - Python programming language
-    - python 3, actually almost linux distributions already installed python program. In some cases, `python` command will call python 2 as the default command, so you must call it with python3 command
-=======
+
   - Python or Python3
     - Python Programming language
     - `python` or `python3` - Python command for executed python file.
->>>>>>> upstream/master
 
 - macOS
 
@@ -89,15 +84,11 @@ In order to run all example in this repository you need to have
     - [Triangle recursion](https://github.com/insomnius/programming-test-interview/blob/master/java/recursion/TriangleRecursion.java)
 
 - Python
-<<<<<<< HEAD
-  - [Number Pattern](/python/logic/numberPattern.py)
-
-=======
   - dictionary
     - [Dynamically Importing And Convert into Dictionary]()
     - [Searching Dictionary Inside the List based on Keyword Dictionary]()
   - [Create Numbers Pattern using conditional statment and loop](/python/logic/numberPattern.py)
->>>>>>> upstream/master
+
 ## How to run
 
 ### Go
@@ -126,13 +117,8 @@ In order to run all example in this repository you need to have
 - use command `javac filename.java` to generate compiled file and then run it with `java filename.class`.
 
 ### Python
-<<<<<<< HEAD
 
-- use command `python python/logic/numberPattern.py`
-  > Depend on what version for your python command, sometimes you should use `python3` for call python 3.
-=======
 - use command `python filename.py arg arg ...` to execute the python file and run it with terminal or command prompt
->>>>>>> upstream/master
 
 ## Contributing
 
