@@ -1,3 +1,5 @@
 .vscode
 main
 *.class
+.idea/
+*.pyc
